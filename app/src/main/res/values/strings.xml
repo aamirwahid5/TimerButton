@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Timer Button Example\\</string>
+    <string name="text">1</string>
+    <string name="heading">Important Warning!</string>
+    <string name="content3">Make sure you understand the related risks before you allow. Allow now?</string>
+    <string name="content2">This may lead to leaks of private information, such as accounts or messages</string>
+    <string name="content">Your Computer will be able to change the settings and grant permissions without knowing you knowing when your device is connected via USB</string>
+</resources>
