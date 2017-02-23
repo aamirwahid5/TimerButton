@@ -21,7 +21,7 @@ public class ThirdActivity extends AppCompatActivity {
         TimerButton btn=(TimerButton) findViewById(R.id.btn);
         btn.setFinishTime(10);
         btn.setInterval(1000);
-        btn.setTimerText("Next");
+        btn.setTimerText("Finish");
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

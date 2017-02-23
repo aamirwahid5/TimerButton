@@ -17,12 +17,15 @@ public class MainActivity extends AppCompatActivity{
         TimerButton btn=(TimerButton) findViewById(R.id.btn);
         btn.setFinishTime(10);
         btn.setInterval(1000);
+
+        //Do Something on Timer Completed
         btn.setOnTimerCompleteListener(new TimerButton.onTimeCompleteListener() {
             @Override
             public void onTimeCompleted() {
-                Toast.makeText(MainActivity.this, "Completed", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "Completed", Toast.LENGTH_SHORT).show();
             }
         });
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
